@@ -1,6 +1,6 @@
-# Basic Web Template
+# JS30 - Array Cardio 1
 
-A simple, non nonsense base to kick off a web project.
+Some array method practise
 
 ## Getting Started
 

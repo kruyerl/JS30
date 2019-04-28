@@ -1,7 +1,7 @@
 {
-	"name": "basic_web_templatee",
+	"name": "js30arraycardio1",
 	"version": "1.0.0",
-	"description": "A Basic Web Template",
+	"description": "js30arraycardio1",
 	"main": "./src/pug/index.pug",
 	"scripts": {
 		"dev": "parcel ./src/pug/index.pug",
