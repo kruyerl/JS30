@@ -3,7 +3,7 @@
 - [ ] JS Drumkit 
 - [ ] JS & CSS Clock 
 - [ ] CSS Variables 
-- [ ] Array Cardio #1 
+- [x] Array Cardio #1 
 - [ ] Flex Panel Gallery 
 - [ ] Type Ahead 
 - [ ] Array Cardio #2 
