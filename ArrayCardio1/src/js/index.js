@@ -112,15 +112,20 @@ console.table('Sorted By Years Lived', sortedByYearsLived)
 
 // 7. sort Exercise
 // Sort the people alphabetically by last name
-const splitPeople = people.sort((a, b) => {
-    const [aLast] = a.split(', ')
-    const [bLast] = b.split(', ')
-    if (aLast > bLast) {
-        return 1
-    }
-    return -1
-})
-console.log('splitPeople', splitPeople)
+const splitPeople = people
+    .sort((a, b) => {
+        const [aLast] = a.split(', ')
+        const [bLast] = b.split(', ')
+        if (aLast > bLast) {
+            return 1
+        }
+        return -1
+    })
+    .map(person => {
+        const [last, first] = person.split(', ')
+        return `${first} ${last}`
+    })
+console.log('Sorted by surname', splitPeople)
 
 // 8. Reduce Exercise
 
@@ -149,4 +154,4 @@ const sumedReduce = data.reduce((vehiclesTotal, vehicle) => {
     return vehiclesTotal
 }, {})
 
-console.log('sumedReduce', sumedReduce)
+console.log('Summed Reduce', sumedReduce)
